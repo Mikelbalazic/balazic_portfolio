@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #0348a3;
+}  
+
+header{
+    
+}
+
+.homepageimage{
+    max-height: 25%;
+    max-width: 25%;
+    display: block;
+    position: fixed;
+}
+
+.navbar header{
+    position: fixed;
+    display: block;
+    top: 170px;
+}
+
+.home-nav ul {
+    list-style: none;
+}
+
+.home-nav li {
+    padding: 10px 50px 10px 10px;
+    display: inline;
+}
+
+.navbar-header a {
+    font-family: 'Avenir';
+    font-weight: 550;
+    font-size: 1vw;
+    color: #0348a3!important;
+    height: 10px;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styles for benefits section */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 50%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0348a3;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
